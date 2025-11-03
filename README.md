@@ -7,6 +7,7 @@ Semantic segmentation of UAV aerial images to detect flooded and non-flooded reg
 FloodNet (Track-1)  
 10 semantic classes  
 ~398 labeled images, high-resolution UAV footage
+Dataset: [FloodNet Track-1 on Kaggle](https://www.kaggle.com/datasets/aletbm/aerial-imagery-dataset-floodnet-challenge)
 
 ## Pipeline
 1. Data understanding
