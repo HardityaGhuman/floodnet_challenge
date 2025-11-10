@@ -1,17 +1,39 @@
-# ignore dataset
 data/
+checkpoints_resunet/
+*.pth
+*.pt
+*.ckpt
+*.npy
+*.npz
+*.zip
 
-# python cache
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
-# Jupyter checkpoints
 .ipynb_checkpoints/
+*.ipynb_save
 
-# virtual environments (if any)
 env/
 venv/
+.venv/
+*.egg-info/
+pip-wheel-metadata/
 
-# saved models & outputs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
 saved_models/
 outputs/
+logs/
+runs/
+temp/
+tmp/
+
+*.log
+*.csv
+*.jsonl
